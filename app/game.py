@@ -2,9 +2,9 @@
 from typing import List
 from bazaar import Bazaar
 from constants import STALL_COLOURS, WIN_GOLD_AMOUNT
-from base_player import Player
+from app.players.base_player import Player
 from dice import Dice
-from stall import Stall
+from app.stall import Stall
 
 
 class GameManager:

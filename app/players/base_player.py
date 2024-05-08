@@ -4,7 +4,7 @@ from typing import List
 from constants import NUM_GOODS_TO_GOLD
 from good import Good
 from game import GameManager
-from stall import Stall
+from app.stall import Stall
 
 
 class Player:
